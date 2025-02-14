@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remote -->
+ <remote name="shakib"
+         fetch="https://github.com/Shakib-BD"/>
+  
+ <!-- Device Tree -->
+ <project path="device/xiaomi/sweet2" name="device_xiaomi_sweet2" remote="shakib" revision="lineage-22.1" />
+
+ <!-- Device common Tree -->
+ <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="shakib" revision="lineage-22.1" />
+  
+ <!-- Vendor Tree -->
+ <project path="vendor/xiaomi/sweet2" name="vendor_xiaomi_sweet2" remote="shakib" revision="lineage-22.1" clone-depth="1" />
+
+ <!-- Vendor Common Tree -->
+ <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="shakib" revision="lineage-22.1" clone-depth="1" />
+
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="shakib" revision="lineage-22.1-ksu" clone-depth="1" />
+
+ <!-- Hardware Xiaomi -->
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="shakib" revision="lineage-22.1"/>
+  
+</manifest>
