@@ -22,5 +22,8 @@
 
  <!-- Hardware Xiaomi -->
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="shakib" revision="lineage-22.1" />
+ 
+ <!-- Signed Keys -->
+ <project path="vendor/orion-priv/keys" name="signed_keys" remote="shakib" revision="OrionOS-15.1-Sweet2" />
   
 </manifest>
