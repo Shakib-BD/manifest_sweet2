@@ -4,6 +4,10 @@
  <!-- Remote -->
  <remote name="shakib"
          fetch="https://github.com/Shakib-BD"/>
+ <remote name="los"
+         fetch="https://github.com/LineageOS"/>
+ <remote name="orionify"
+         fetch="https://github.com/OrionOS-Project"/>
   
  <!-- Device Tree -->
  <project path="device/xiaomi/sweet2" name="device_xiaomi_sweet2" remote="shakib" revision="OrionOS-15.1" />
@@ -20,6 +24,11 @@
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="shakib" revision="lineage-22.1-ksu" clone-depth="1" />
 
+ <!-- Remove Project -->
+ <remove-project name="OrionOS-Project/device_qcom_sepolicy_vndr" />
+ <!-- Qcom-Sepolicy_Vndr -->
+ <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" revision="lineage-22.1-legacy-um" />
+ 
  <!-- Hardware Xiaomi -->
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="shakib" revision="lineage-22.1" />
  
