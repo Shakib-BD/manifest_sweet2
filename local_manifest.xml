@@ -25,7 +25,7 @@
  <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="shakib" revision="lineage-22.1-ksu" clone-depth="1" />
 
  <!-- Remove Project -->
- <remove-project name="OrionOS-Project/device_qcom_sepolicy_vndr" />
+ <remove-project name="device_qcom_sepolicy_vndr" />
  <!-- Qcom-Sepolicy_Vndr -->
  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" revision="lineage-22.1-legacy-um" />
  
